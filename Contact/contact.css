@@ -1,0 +1,118 @@
+body {
+    font-family: 'Meddon', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('../images/gym1.jpg');
+    background-size: 100%;
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+
+.left img {
+    width: 140px;
+    filter: invert(100%);
+}
+
+.left div {
+    line-height: 19px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.mid {
+    display: block;
+    width: 60%;
+    margin: 30px auto;
+}
+
+.item {
+    font-size: 20px;
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 43px;
+    display: inline-block;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+
+}
+
+.btn {
+    font-family: 'Newsreader', serif;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 6px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background-color: rgb(31, 30, 30);
+}
+
+.container {
+    border: 2px solid white;
+    margin: 80px auto;
+    padding: 50px;
+    width: 33%;
+    border-radius: 28px;
+}
+
+.form-group input {
+    font-family: 'Newsreader', serif;
+    text-align: center;
+    display: block;
+    width: 300px;
+    padding: 3px;
+    border: 2px solid black;
+    margin: 11px auto;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.container h1 {
+    text-align: center;
+}
+
+.container button {
+    display: block;
+    width: 80%;
+    margin: 20px auto;
+}

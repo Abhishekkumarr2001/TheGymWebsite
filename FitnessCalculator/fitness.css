@@ -1,0 +1,132 @@
+body {
+    font-family: 'Meddon', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    background: url('../images/gym1.jpg');
+    background-size: 100%;
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+
+.left img {
+    width: 140px;
+    filter: invert(100%);
+}
+
+.left div {
+    line-height: 19px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.mid {
+    display: block;
+    width: 60%;
+    margin: 30px auto;
+}
+
+.item {
+    font-size: 20px;
+}
+
+.right {
+    position: absolute;
+    right: 34px;
+    top: 43px;
+    display: inline-block;
+}
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 25px;
+}
+
+.navbar li a {
+    font-family: 'Meddon', cursive;
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+    text-decoration: underline;
+    color: grey;
+}
+
+.btn {
+    font-family: 'Newsreader', serif;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 6px 14px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background-color: rgb(31, 30, 30);
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+label {
+    font-family: 'Newsreader', serif;
+    display: block;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    font-family: 'Newsreader', serif;
+}
+
+button {
+    background-color: rgba(245, 245, 245, 0.2);
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin: 30px 0px;
+    font-family: 'Newsreader', serif;
+}
+
+button:hover {
+    background-color: black;
+}
+
+#result{
+    font-family: 'Newsreader', serif;
+}
